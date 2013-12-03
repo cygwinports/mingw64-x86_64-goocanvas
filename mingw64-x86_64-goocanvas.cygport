@@ -1,0 +1,11 @@
+CROSS_HOST="x86_64-w64-mingw32"
+ORIG_PN="goocanvas"
+inherit cross gnome2
+
+NAME="mingw64-x86_64-goocanvas"
+VERSION=1.0.0
+RELEASE=2
+CATEGORY="Devel"
+SUMMARY="GTK+ canvas widget library for Win64 toolchain"
+DESCRIPTION="A cairo-based canvas widget library for GTK+"
+HOMEPAGE="http://sourceforge.net/projects/goocanvas/"
